@@ -12,10 +12,12 @@ public class GraphSearchAnalyzer {
 		Edge[] graph = GraphGenerator.GenerateTestGraph();
 		IGraphSearcher searcher = new DepthLimitedA();
 		
+		// Run search
 		long beforeTime = System.nanoTime();
 		Path resultPath = searcher.SearchGraph(graph, "S", "G", 6);
 		long afterTime = System.nanoTime();
 		
+		// Display results
 		System.out.println("Time in nanoseconds: " + (afterTime - beforeTime));
 		System.out.println("Shortest Path: " + resultPath.getPath());
 		System.out.println("Weight: " + resultPath.getTotalLength());

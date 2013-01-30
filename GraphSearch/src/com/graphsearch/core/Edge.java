@@ -5,7 +5,7 @@ package com.graphsearch.core;
  * @author Tyler Hackbarth
  */
 public class Edge {
-	// Length of this edge
+	// Length or weight of this edge
 	public int length;
 	// Starting vertice of this edge
 	public String start;

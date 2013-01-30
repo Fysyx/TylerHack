@@ -2,6 +2,12 @@ package com.graphsearch.generation;
 
 import com.graphsearch.core.Edge;
 
+/**
+ * Generates graphs for testing purposes.
+ * Currently only generates one static graph, 
+ * but there are plans for adding random graph generation.
+ * @author Tyler Hackbarth
+ */
 public class GraphGenerator {
 	
 	public static Edge[] GenerateTestGraph() {
