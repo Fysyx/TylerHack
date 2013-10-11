@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputManager", "InputManager\InputManager.csproj", "{3F7693B9-C374-40C7-817E-3F9259450EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F7693B9-C374-40C7-817E-3F9259450EE8}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{3F7693B9-C374-40C7-817E-3F9259450EE8}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{3F7693B9-C374-40C7-817E-3F9259450EE8}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{3F7693B9-C374-40C7-817E-3F9259450EE8}.Release|Xbox 360.Build.0 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
